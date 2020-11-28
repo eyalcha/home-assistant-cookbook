@@ -32,7 +32,7 @@ input_number:
     step: 1
 ```
 
-# UI
+## Lovelace
 
 ```yaml
 cards:
