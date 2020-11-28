@@ -5,7 +5,9 @@ For changing the time offset of the image, we will use [input number](https://ww
 
 ![Rain Radar](image.jpg)
 
-The camera uses template to define the image URL
+## Entities
+
+The camera uses template to define the image URL. The template creates the time stamp of the image based on the current time and the offset set by the input number.
 
 ```yaml
 camera:
@@ -29,6 +31,20 @@ input_number:
     max: 14
     step: 1
 ```
+
+# UI
+
+```yaml
+cards:
+  - type: picture-entity
+    entity: camera.weather_rain
+    show_state: false
+  - type: entities
+    entities:
+      - entity: input_number.weather_rain_offset
+```
+
+**Note**: For slider, you can also use the custom [slider entity row](https://github.com/thomasloven/lovelace-slider-entity-row) which gives more control on the card.
 
 ---
 
