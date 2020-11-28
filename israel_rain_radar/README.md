@@ -1,6 +1,6 @@
 # Israel rain radar
 
-For a view of irsael rain radar, we will use [generic camera](https://www.home-assistant.io/integrations/generic/) with still image URL.
+For a view of Israel rain radar, we will use [generic camera](https://www.home-assistant.io/integrations/generic/) with still image URL.
 For changing the time offset of the image, we will use [input number](https://www.home-assistant.io/integrations/input_number/). The input number (time offset) can be set using UI or using input number [services](https://www.home-assistant.io/integrations/input_number/#services).
 
 Note that the refresh rate of the image is based on the refresh rate of the entity card, so there is a delay until the image is updated after changing the time offset.
