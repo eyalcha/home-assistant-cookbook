@@ -8,6 +8,7 @@ For changing the time offset of the image, we will use [input number](https://ww
 ## Entities
 
 The camera uses template to define the image URL. The template creates the time stamp of the image based on the current time and the offset set by the input number.
+Note that the refresh rate of the image is based on the refresh rate of the entity card, so there is a delay between changin the time offset and the time the image is updated.
 
 ```yaml
 camera:
