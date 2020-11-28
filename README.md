@@ -2,4 +2,4 @@
 
 Different examples for home assaitnt configurations.
 
-- [Israel rain radar](israel_rain_radar/README)
+- [Israel rain radar](israel_rain_radar/README.md)
