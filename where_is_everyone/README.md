@@ -1,4 +1,4 @@
-# Nofity family location
+# Where is everyone
 
 ## Required services
 
@@ -24,7 +24,7 @@ person:
       - device_tracker.life360_...
 ```
 
-Add all family member to persosn [group](https://www.home-assistant.io/integrations/group/):
+Add all family member to persons [group](https://www.home-assistant.io/integrations/group/):
 
 ```yaml
 group:
