@@ -1,5 +1,4 @@
 # Home Assistant Cookbook
 
-Different examples for home assistant configurations.
-
 - [Israel rain radar](israel_rain_radar/README.md)
+- [Where is everyone](where_is_everyone/README.md)
