@@ -1,5 +1,7 @@
 # Where is everyone
 
+*Please :star: this repo if you find it useful*
+
 ## Required services
 
 For person location, [Life360](https://www.life360.com/intl/) with the Home Assistant [Life360](https://www.home-assistant.io/integrations/life360/) integration.

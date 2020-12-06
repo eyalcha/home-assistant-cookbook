@@ -1,5 +1,7 @@
 # Echo tunein radio card
 
+*Please :star: this repo if you find it useful*
+
 Lovelace card with pre-defined Israel radio station buttons to play on Amazon echo device from [Tunein](https://tunein.com/) streaming service.
 
 ## Prerequisites
