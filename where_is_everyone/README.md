@@ -118,3 +118,10 @@ Before you create the [rountine](https://www.amazon.com/gp/help/customer/display
 To be able to ask Alexa **where is everyone**, you will need to add a routine that will trigger the Home Assistant script. Use the Alexa App in your mobile device to define the rountine.
 
 ![Alexa Rotine](image.jpg)
+
+---
+
+I put a lot of work into making this repo and component available and updated to inspire and help others! I will be glad to receive thanks from you — it will give me new strength and add enthusiasm:
+<p align="center"><br>
+<a href="https://paypal.me/eyalco1967?locale.x=he_IL" target="_blank"><img src="http://khrolenok.ru/support_paypal.png" alt="PayPal" width="250" height="48"></a>
+</p>
