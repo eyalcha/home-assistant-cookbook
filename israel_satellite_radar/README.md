@@ -1,4 +1,4 @@
-# Israel satellit radar
+# Israel satellite radar
 
 *Please :star: this repo if you find it useful*
 
