@@ -2,7 +2,7 @@
 
 *Please :star: this repo if you find it useful*
 
-Lovelace card with pre-defined Israel radio station buttons to play on Chromecast device from.
+Lovelace card with pre-defined Israel radio station buttons to play on Chromecast device.
 
 ## Prerequisites
 
