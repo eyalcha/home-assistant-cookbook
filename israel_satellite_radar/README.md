@@ -21,7 +21,7 @@ camera:
   content_type: image/gif
   limit_refetch_to_url_change: true
   still_image_url: >
-    {% set offset_seconds = 60 * 60 * states('input_number.weather_satellite_offset') | int %}
+    {% set offset_seconds = 60 * 60 + 60 * 60 * states('input_number.weather_satellite_offset') | int %}
     {% set timestamp = (as_timestamp(now()) - offset_seconds) | timestamp_custom('%Y%m%d%H00', True)  %}
     https://ims.gov.il/sites/default/files/ims_data/map_images/satellite/satellite_{{timestamp}}_MIDDLE-EAST.jpeg
 ```
@@ -33,7 +33,7 @@ input_number:
   weather_satellite_offset:
     name: Offset
     min: 0
-    max: 12
+    max: 11
     step: 1
 ```
 
